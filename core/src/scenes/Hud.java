@@ -74,6 +74,7 @@ public class Hud implements Disposable{
         //make the table fill the entire stage
         table.setFillParent(true);
 
+        //mažiukas pakeitimas su github
         //define our labels using the String, and a Label style consisting of a font and color
         countdownLabel = new Label(String.format("%03d", worldTimer), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
         scoreLabel =new Label(String.format("%06d", score), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
